@@ -18,18 +18,29 @@
                             <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeImg" translatesAutoresizingMaskIntoConstraints="NO" id="xai-Nr-gUp">
                                 <rect key="frame" x="0.0" y="-6" width="424" height="905"/>
                             </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAH-hv-eKZ">
+                                <rect key="frame" x="116" y="680" width="183" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Get Started"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JrH-4y-nWj"/>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xai-Nr-gUp" firstAttribute="leading" secondItem="JrH-4y-nWj" secondAttribute="leading" id="Bhv-jL-kOb"/>
+                            <constraint firstItem="GAH-hv-eKZ" firstAttribute="centerX" secondItem="B4d-88-t12" secondAttribute="centerX" id="BkC-1i-Xtz"/>
                             <constraint firstItem="JrH-4y-nWj" firstAttribute="top" secondItem="xai-Nr-gUp" secondAttribute="top" constant="50" id="COK-3l-Ezd"/>
+                            <constraint firstItem="GAH-hv-eKZ" firstAttribute="leading" secondItem="JrH-4y-nWj" secondAttribute="leading" constant="116" id="J6Q-8R-xKA"/>
                             <constraint firstItem="JrH-4y-nWj" firstAttribute="trailing" secondItem="xai-Nr-gUp" secondAttribute="trailing" constant="-10" id="MSy-Zv-cdf"/>
+                            <constraint firstItem="JrH-4y-nWj" firstAttribute="bottom" secondItem="GAH-hv-eKZ" secondAttribute="bottom" constant="122" id="Ugm-NI-cQ7"/>
+                            <constraint firstItem="GAH-hv-eKZ" firstAttribute="top" secondItem="JrH-4y-nWj" secondAttribute="top" constant="636" id="bce-se-chS"/>
                             <constraint firstItem="JrH-4y-nWj" firstAttribute="bottom" secondItem="xai-Nr-gUp" secondAttribute="bottom" constant="-37" id="yJu-U2-PJw"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="backgroundImageView" destination="xai-Nr-gUp" id="XoQ-6A-Lno"/>
+                        <outlet property="getStartedButton" destination="GAH-hv-eKZ" id="j3B-Sq-VSY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ItS-J9-Kok" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

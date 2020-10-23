@@ -11,6 +11,7 @@ class HomeController: UIViewController {
     
   //  @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var getStartedButton: UIButton!
 
   //  @IBOutlet weak var welcomeLabel: UILabel!
     
@@ -24,5 +25,12 @@ class HomeController: UIViewController {
         guard let image = UIImage(named: "welcomeImg") else { return }
         backgroundImageView.image = image
         view.addSubview(backgroundImageView)
+        backgroundImageView.addSubview(getStartedButton)
+        getStartedButton.isOpaque = false
+        getStartedButton.setTitle("Get Started", for: .normal)
+        getStartedButton.titleLabel?.sizeToFit()
+        getStartedButton.titleLabel?.tintColor = .systemGray5
+        getStartedButton.titleLabel?.textAlignment = .center
+        getStartedButton.layer.cornerRadius = 20
     }
 }
