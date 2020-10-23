@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "mexican-lunch-bowls-6.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "mexican-lunch-bowls-7.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "mexican-lunch-bowls-8.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
