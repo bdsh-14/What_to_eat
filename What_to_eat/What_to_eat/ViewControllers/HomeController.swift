@@ -17,6 +17,7 @@ class HomeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
         setup()
         
     }
@@ -25,12 +26,21 @@ class HomeController: UIViewController {
         guard let image = UIImage(named: "welcomeImg") else { return }
         backgroundImageView.image = image
         view.addSubview(backgroundImageView)
-        backgroundImageView.addSubview(getStartedButton)
+        view.addSubview(getStartedButton)
+        view.bringSubviewToFront(getStartedButton)
         getStartedButton.isOpaque = false
         getStartedButton.setTitle("Get Started", for: .normal)
         getStartedButton.titleLabel?.sizeToFit()
         getStartedButton.titleLabel?.tintColor = .systemGray5
         getStartedButton.titleLabel?.textAlignment = .center
-        getStartedButton.layer.cornerRadius = 20
+        getStartedButton.layer.cornerRadius = 12
+        getStartedButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        getStartedButton.backgroundColor = .systemGreen
     }
+    
+    @IBAction func getStartedClicked(_ sender: Any) {
+        print("button tapped")
+        performSegue(withIdentifier: "getStarted_to_cuisineType", sender: self)
+    }
+    
 }
