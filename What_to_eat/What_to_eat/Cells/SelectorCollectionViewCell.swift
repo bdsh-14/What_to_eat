@@ -12,12 +12,9 @@ class SelectorCollectionViewCell: UICollectionViewCell {
     static let reuseIdentifier = "selectorCell"
     
     @IBOutlet weak var selectorLabel: UILabel!
+    @IBOutlet weak var view: UIView!
     
     override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        selectorLabel.text = "Hello"
-        // Initialization code
+        super.awakeFromNib()        
     }
-
 }

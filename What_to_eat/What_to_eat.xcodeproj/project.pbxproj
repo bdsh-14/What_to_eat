@@ -16,6 +16,7 @@
 		B86142062546267200E08E0B /* CuisineTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86142052546267200E08E0B /* CuisineTypeViewController.swift */; };
 		B8B55404254B1A9900884CE5 /* SelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B55402254B1A9900884CE5 /* SelectorCollectionViewCell.swift */; };
 		B8B55405254B1A9900884CE5 /* SelectorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B55403254B1A9900884CE5 /* SelectorCollectionViewCell.xib */; };
+		B8B55431254B657A00884CE5 /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B55430254B657A00884CE5 /* MenuListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B86142052546267200E08E0B /* CuisineTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineTypeViewController.swift; sourceTree = "<group>"; };
 		B8B55402254B1A9900884CE5 /* SelectorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCollectionViewCell.swift; sourceTree = "<group>"; };
 		B8B55403254B1A9900884CE5 /* SelectorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorCollectionViewCell.xib; sourceTree = "<group>"; };
+		B8B55430254B657A00884CE5 /* MenuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B856D939254270CD00414F85 /* HomeController.swift */,
 				B86142052546267200E08E0B /* CuisineTypeViewController.swift */,
+				B8B55430254B657A00884CE5 /* MenuListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				B856D93A254270CD00414F85 /* HomeController.swift in Sources */,
 				B8B55404254B1A9900884CE5 /* SelectorCollectionViewCell.swift in Sources */,
 				B856D92425426FAE00414F85 /* AppDelegate.swift in Sources */,
+				B8B55431254B657A00884CE5 /* MenuListViewController.swift in Sources */,
 				B86142062546267200E08E0B /* CuisineTypeViewController.swift in Sources */,
 				B856D92625426FAE00414F85 /* SceneDelegate.swift in Sources */,
 			);
